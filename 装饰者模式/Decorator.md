@@ -19,14 +19,16 @@
 - 类图： 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210516232718301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDcyMzk5,size_16,color_FFFFFF,t_70)
 
-==Component(被装饰对象基类)== 
+**Component(被装饰对象基类)** ：
 定义对象的接口，可以给这些对象动态增加职责
 
-==ConcreteComponent(具体被装饰对象)==
+**ConcreteComponent(具体被装饰对象)**：
 定义具体的对象，Decorator可以给他增加额外的职责
 
-==Decorator(装饰者抽象类)==
+**Decorator(装饰者抽象类)**：
 维护指定Component实例的引用，定义与Component一致的接口
 
-==ConcreteDecorator(具体装饰着)==
+**ConcreteDecorator(具体装饰着)**：
 具体的装饰者对象，给内部持有的具体被装饰对象增加具体的职责
+
+ 
